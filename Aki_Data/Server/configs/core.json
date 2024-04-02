@@ -24,10 +24,10 @@
             "sptFriendEnabled": true,
             "commandoEnabled": true,
             "commandoFeatures": {
-                "giveCommandEnabled": false
+                "giveCommandEnabled": true
             }
         }
     },
-    "commit": "9608ac4a2cdbd7f6c352e047cd806a8b332b28d9",
-    "buildTime": 1710690333630
+    "commit": "2dd4d914382657378d9cdec173039d771fe33220",
+    "buildTime": 1711996199777
 }

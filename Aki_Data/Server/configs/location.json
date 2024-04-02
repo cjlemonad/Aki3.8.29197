@@ -1,21 +1,21 @@
 {
     "looseLootMultiplier": {
-        "bigmap": 3.1,
+        "bigmap": 2.5,
         "develop": 1,
-        "factory4_day": 4,
-        "factory4_night": 4,
-        "interchange": 3.5,
-        "laboratory": 3,
-        "rezervbase": 3.7,
-        "shoreline": 4.5,
-        "woods": 2.4,
+        "factory4_day": 3.5,
+        "factory4_night": 3.5,
+        "interchange": 2.8,
+        "laboratory": 2.8,
+        "rezervbase": 2.9,
+        "shoreline": 3.7,
+        "woods": 1.9,
         "hideout": 0,
-        "lighthouse": 3.6,
+        "lighthouse": 2.8,
         "privatearea": 1,
         "suburbs": 1,
-        "tarkovstreets": 3.6,
+        "tarkovstreets": 3,
         "terminal": 1,
-        "sandbox": 3,
+        "sandbox": 2.8,
         "town": 0
     },
     "staticLootMultiplier": {
@@ -653,7 +653,7 @@
             ],
             "rezervbase": [
                 {
-                    "sptId": "sptBearReserveNormalSpawn",
+                    "sptId": "sptBearReserveNormalSpawnA",
                     "BossName": "sptBear",
                     "BossChance": 15,
                     "BossZone": "ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage",
@@ -676,7 +676,53 @@
                     "ChanceGroup": 0
                 },
                 {
-                    "sptId": "sptUsecReserveNormalSpawn",
+                    "sptId": "sptBearReserveNormalSpawnB",
+                    "BossName": "sptBear",
+                    "BossChance": 15,
+                    "BossZone": "ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage",
+                    "BossPlayer": false,
+                    "BossDifficult": "normal",
+                    "BossEscortType": "sptBear",
+                    "BossEscortDifficult": "normal",
+                    "BossEscortAmount": "1",
+                    "Time": -1,
+                    "Supports": [
+                        {
+                            "BossEscortType": "sptBear",
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
+                            "BossEscortAmount": "1"
+                        }
+                    ],
+                    "RandomTimeSpawn": false,
+                    "ChanceGroup": 0
+                },
+                {
+                    "sptId": "sptUsecReserveNormalSpawnA",
+                    "BossName": "sptUsec",
+                    "BossChance": 15,
+                    "BossZone": "ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage",
+                    "BossPlayer": false,
+                    "BossDifficult": "normal",
+                    "BossEscortType": "sptUsec",
+                    "BossEscortDifficult": "normal",
+                    "BossEscortAmount": "1",
+                    "Time": -1,
+                    "Supports": [
+                        {
+                            "BossEscortType": "sptUsec",
+                            "BossEscortDifficult": [
+                                "normal"
+                            ],
+                            "BossEscortAmount": "1"
+                        }
+                    ],
+                    "RandomTimeSpawn": false,
+                    "ChanceGroup": 0
+                },
+                {
+                    "sptId": "sptUsecReserveNormalSpawnB",
                     "BossName": "sptUsec",
                     "BossChance": 15,
                     "BossZone": "ZoneBarrack,ZonePTOR1,ZonePTOR2,ZoneSubCommand,ZoneSubStorage,ZoneRailStrorage",
@@ -966,13 +1012,13 @@
         ],
         "lighthouse": [
             "6331bb0d1aa9f42b804997a6",
-            "6398a072e301557ae24cec92",
             "6398a0861c712b1e1d4dadf1",
             "6399f54b0a36db13c823ad21",
             "64e74a64aac4cd0a7264ecdf"
         ],
         "rezervbase": [
-            "64e74a4baac4cd0a7264ecdd"
+            "64e74a4baac4cd0a7264ecdd",
+            "6398a072e301557ae24cec92"
         ],
         "shoreline": [
             "64e74a534d49d23b2c39d31b"
