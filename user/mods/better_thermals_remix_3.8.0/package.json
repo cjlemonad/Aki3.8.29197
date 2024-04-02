@@ -1,0 +1,10 @@
+{
+  "name": "better_thermals",
+  "author": "Mr_Potat and Playlost",
+  "license": "cc",
+  "main": "src/mod.js",
+  "version": "1.0.1",
+  "akiVersion": "3.8.0",
+  "isBundleMod": true,
+  "devdependencies": {}
+}

@@ -607,5 +607,6 @@
 	"release-plugins-loaded": "一个或多个插件存在于模组已启用的版本中，报告将被视为无效直至插件被移除。 请参阅下面的列表来删除插件以便再次报告问题：",
 	"release-plugins-loaded-debug-message": "客户端模组已加载完毕",
 	"release-illegal-plugins-loaded": "检测到一个或多个非白名单内插件。血色边缘测试版SPT尚未允许模组。非法插件：",
-	"release-illegal-plugins-exception": "检测到非测试用客户端模组。血色边缘测试版SPT尚未允许模组 - 请在启动游戏前移除模组！"
+	"release-illegal-plugins-exception": "检测到非测试用客户端模组。血色边缘测试版SPT尚未允许模组 - 请在启动游戏前移除模组！",
+	"release-summary": ""
 }

@@ -22,3 +22,11 @@
 /Aki_Data/Server/@pnpm/
 /Aki_Data/Server/images/
 /Aki_Data/Server/checks.dat
+/user/logs/
+/user/launcher/
+/user/cache/
+/Logs/log_2024.04.02_7-20-47_0.14.1.2.29197/2024.04.02_7-20-47_0.14.1.2.29197 application.log
+/Logs/log_2024.04.02_7-20-47_0.14.1.2.29197/2024.04.02_7-20-47_0.14.1.2.29197 errors.log
+/Logs/log_2024.04.02_7-20-47_0.14.1.2.29197/2024.04.02_7-20-47_0.14.1.2.29197 notifications.log
+/Logs/log_2024.04.02_7-20-47_0.14.1.2.29197/2024.04.02_7-20-47_0.14.1.2.29197 traces.log
+/Logs/log_2024.04.02_7-20-47_0.14.1.2.29197/2024.04.02_7-20-47_0.14.1.2.29197_backend.log
